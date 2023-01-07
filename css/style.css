@@ -2,6 +2,7 @@
 
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -71,6 +72,41 @@ nav.menu {
     color: #000;
 }
 
+#servicos {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, #servicos h3 {
+    color: #7c25f8;
+}
+
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h2, #recursos p {
+    color: #ffffff;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+
+}
+
+.rotate {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding: 80px;
+}
+
 /* textos */
 
 h1 {
@@ -79,6 +115,52 @@ h1 {
     margin-bottom: 50px;
     color: #fff;
 }
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* RODAPÉ */
+
+footer {
+    background: #000;
+    padding: 50px 0 20px 0 ;
+    position: relative;
+}
+
+fotter h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0px 10px;
+}
+
+footer .navbar-nav a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
