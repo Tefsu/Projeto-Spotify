@@ -44,6 +44,10 @@ nav.menu {
     text-align: center;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 .btn-custom{
     color: #fff;
     border-radius: 500px;
